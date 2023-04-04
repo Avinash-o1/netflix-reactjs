@@ -1,0 +1,36 @@
+.nav{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    
+    /* animation  */
+    animation-timing-function: ease-in;
+    transition: all 0.7s;
+}
+.black{
+    background-color: black;
+}
+
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+}
+.netflix_logo{
+    position: fixed;
+    top: 3vh;
+    left: 0px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+    width: 80px;
+}
+.profile_logo{
+    position: fixed;
+    right: 2vh;
+    cursor: pointer;
+    height: 6vh;
+    top: 2vh;
+}
